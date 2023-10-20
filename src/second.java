@@ -4,7 +4,7 @@ public class second {
     public static void main(String[] args)throws ClassNotFoundException, SQLException {
         String url ="jdbc:mysql://localhost:3306/student";
         String un = "root";
-        String pass = "12345678";
+        String pass = "********";
         String query = "select * from stud";
 
 
