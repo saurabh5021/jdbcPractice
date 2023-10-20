@@ -4,7 +4,7 @@ public class thirdInsertion {
     public static void main(String[] args) throws SQLException,ClassNotFoundException {
         String url ="jdbc:mysql://localhost:3306/student";
         String un = "root";
-        String pass = "12345678";
+        String pass = "********";
         int val = 5;
         String name = "Yogesh";
         String query = "insert into stud values(?, ?)";
