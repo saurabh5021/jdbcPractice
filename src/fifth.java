@@ -21,7 +21,7 @@ public class fifth {
         public void connect(){
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/saurabh", "root", "12345678");
+                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/saurabh", "root", "********");
             } catch (Exception e) {
                 e.printStackTrace();
             }
